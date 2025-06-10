@@ -83,12 +83,3 @@ JWT-based middleware protects all task routes.
 
 - `DELETE /tasks/:id`  
   - Deletes a task (only if owned by the logged-in user)
-
----
-
-## 📦 Setup Instructions
-
-1. Clone the repo  
-2. Create a PostgreSQL database named `tasklist`  
-3. Run schema and seed files  
-4. Create a `.env` file with:
